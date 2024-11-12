@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs112.lab09.controllers.EventController">
+   <bottom>
+      <Button fx:id="closeButton" mnemonicParsing="false" onAction="#onCloseButtonClicked" text="Close" BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <BorderPane prefHeight="388.0" prefWidth="260.0" BorderPane.alignment="CENTER">
+         <top>
+            <VBox alignment="CENTER" prefHeight="57.0" prefWidth="260.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="locationLabel" text="Location" />
+                  <Label fx:id="dateLabel" text="Date" />
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="251.0" prefWidth="241.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="descriptionLabel" prefWidth="244.0" text="Lorem ipsum odor amet, consectetuer adipiscing elit. Quis sapien fusce bibendum habitant consectetur interdum egestas! Elit metus elementum non hac faucibus auctor condimentum. Iaculis lectus odio mauris diam mi consectetur gravida cras. Ornare lacinia vehicula parturient suspendisse penatibus. Lacinia nisl curabitur ornare litora efficitur. Laoreet donec tempus dis leo quis cubilia.Sit inceptos suspendisse amet posuere nec ipsum arcu morbi facilisis. Fames penatibus integer eros porttitor luctus viverra turpis. Curabitur pharetra euismod tempor fusce vitae. Libero lectus rhoncus facilisis nunc risus. Phasellus est consequat molestie diam, auctor eleifend nulla dolor. Tincidunt facilisis sodales urna dictum libero congue ligula fermentum integer. Fermentum est laoreet leo mattis viverra nam." textAlignment="CENTER" wrapText="true" />
+                  <Label fx:id="revisedDescriptionLabel" prefWidth="239.0" text="Lorem ipsum odor amet, consectetuer adipiscing elit. Quis sapien fusce bibendum habitant consectetur interdum egestas! Elit metus elementum non hac faucibus auctor condimentum. Iaculis lectus odio mauris diam mi consectetur gravida cras. Ornare lacinia vehicula parturient suspendisse penatibus. Lacinia nisl curabitur ornare litora efficitur. Laoreet donec tempus dis leo quis cubilia.Sit inceptos suspendisse amet posuere nec ipsum arcu morbi facilisis. Fames penatibus integer eros porttitor luctus viverra turpis. Curabitur pharetra euismod tempor fusce vitae. Libero lectus rhoncus facilisis nunc risus. Phasellus est consequat molestie diam, auctor eleifend nulla dolor. Tincidunt facilisis sodales urna dictum libero congue ligula fermentum integer. Fermentum est laoreet leo mattis viverra nam." textAlignment="CENTER" wrapText="true" />
+               </children></VBox>
+         </center>
+         <bottom>
+            <VBox prefHeight="67.0" prefWidth="260.0" BorderPane.alignment="CENTER" />
+         </bottom>
+      </BorderPane>
+   </right>
+   <center>
+      <ImageView fx:id="eventImageView" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
