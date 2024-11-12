@@ -26,7 +26,10 @@
                </children></VBox>
          </center>
          <bottom>
-            <VBox prefHeight="67.0" prefWidth="260.0" BorderPane.alignment="CENTER" />
+            <VBox alignment="CENTER" prefHeight="37.0" prefWidth="260.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Hyperlink fx:id="sourceLink" alignment="TOP_LEFT" onAction="#onSourceClick" text="Source" />
+               </children></VBox>
          </bottom>
       </BorderPane>
    </right>
